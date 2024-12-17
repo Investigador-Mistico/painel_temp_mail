@@ -1,0 +1,51 @@
+chmod +x painel_temp_mail.sh
+
+./painel_temp_mail.sh
+
+ls -l painel_temp_mail.sh
+
+chmod +x painel_temp_mail.sh
+
+./painel_temp_mail.sh
+
+pkg install ruby -y
+gem install lolcat
+pkg install jq
+pkg install root-rep
+pkg install curl jq figlet lolcat -y
+pkg install wget
+wget -O jq https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
+
+jq --version
+
+sudo apt update
+sudo apt install figlet -y
+
+sudo apt install ruby -y
+sudo gem install lolcat
+
+pkg install tsu
+pkg install figle
+pkg install figlet
+
+echo "Teste do lolcat" | lolcat
+
+figlet "Temp Mail Panel"
+
+bash painel_temp_mail.sh
+cp painel_temp_mail.sh ~/painel_temp_mail.sh
+
+cd ~
+chmod +x painel_temp_mail.sh
+./painel_temp_mail.sh
+
+
+   [ ativa o painel ]
+[bash painel_temp_mail.sh]
+
+[linpa terminal]
+   [clear]
+
+     [teste de cor]
+[ figlet "Teste"
+echo "Teste de cor" | lolcat ]
